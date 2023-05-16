@@ -14,7 +14,9 @@ const channels = require("./channels.json");
  * - returns the name of the channel
  ****************************************************************/
 function getChannelName(channel) {
-  // Your code here
+  return channel.name;
+
+  //
 }
 
 // console.log(getChannelName(channels[0]));
